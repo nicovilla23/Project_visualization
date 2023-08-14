@@ -1,8 +1,8 @@
 <p align="center" width="300">
-   <h3 align="center"> Project ETL</h3>
+   <h3 align="center"> Project Visualization</h3>
 </p>
 <div style="display: flex; justify-content: center;">
-  <img width="478" alt="Principal" src=https://github.com/nicovilla23/Project_Music_ETL/blob/main/Images/Captura%20de%20Pantalla%202023-08-06%20a%20las%2019.01.37.png?raw=true>
+  <img width="478" alt="Principal" src=https://github.com/nicovilla23/Project_visualization/blob/main/Images/Captura%20de%20Pantalla%202023-08-14%20a%20las%2016.24.13.png?raw=true>
 </div>
 
    <h3 align="center"> Nicolás Villanova</h3>
@@ -10,115 +10,94 @@
 </p>
 
 ## Project:
-- In this project I must extract, clean and upload to a database that i will create.
-- I am required to use two methods, such as BeautifulSoup or selenium, and three sources.
-- As a bonus we are asked to make an analysis.
-- We are allowed to choose freely the theme of the project.
-
+- In this project I must make and represent, with visualization, an analysis of the last project in which we extracted, cleaned and uploaded data  to a database.
 ## Electric Vehicles:
 <div style="display: flex; justify-content: center;">
   <img width="478" alt="Principal" src=https://github.com/nicovilla23/Project_Music_ETL/blob/main/Images/Captura%20de%20Pantalla%202023-08-06%20a%20las%2019.02.37.png?raw=true>
 </div>
 
 
-### Cars population:
+## [Click to see the presentation in tableau](https://public.tableau.com/app/profile/randel.pedraza/viz/Libro1_16917526419450/Historia1?publish=yes)
 
-1. From kaggle I extract a dataset containing registered electric vehicles.
-2. Erase duplicates and columns which i determine irrelevant for the study.
-3. I clean the electric utility column by applying a function that normalises the unique values.
-4.  Transforming the Electric vehicle type column to make it easier to understand.
-5. Erasing special characters from location column
-6. Creating new column latitude with coordinates.
-7. Creating new column longitude with coordinates.
 
-#### Analysis:
+# 1. Electric car tendencies
 
+- In this graphic we can observe that throughout the years there are more people buying electric cars, it's tendency is rapidly growing.
 
 
 
 <div style="display: flex; justify-content: center;">
-  <img width="478" alt="Principal" src=https://github.com/nicovilla23/Project_Music_ETL/blob/main/Images/Captura%20de%20Pantalla%202023-08-06%20a%20las%2017.15.44.png?raw=truee>
+  <img width="478" alt="Principal" src=https://github.com/nicovilla23/Project_visualization/blob/main/Images/Captura%20de%20Pantalla%202023-08-14%20a%20las%2016.30.59.png?raw=true>
 </div>
-1. The amount of electric and plug-in hybrids
+.
+
+# Electric vs Plug-in Hybrids
+
+- Within the electric cars registered we can observe that there is a majority of pure electric cars.
 <div style="display: flex; justify-content: center;">
-  <img width="478" alt="Principal" src=https://github.com/nicovilla23/Project_Music_ETL/blob/main/Images/Captura%20de%20Pantalla%202023-08-06%20a%20las%2017.15.58.png?raw=true>
+  <img width="478" alt="Principal" src=https://github.com/nicovilla23/Project_visualization/blob/main/Images/Captura%20de%20Pantalla%202023-08-14%20a%20las%2016.31.15.png?raw=true>
 </div>
-2. Percentage of population per Make
+.
+
+# Car utility
+
+- From this graphic we can gather that electric cars are viable as car utilities. 
+- We can also gather which companies have the most amount of electric cars .
+
 <div style="display: flex; justify-content: center;">
-  <img width="478" alt="Principal" src=https://github.com/nicovilla23/Project_Music_ETL/blob/main/Images/Captura%20de%20Pantalla%202023-08-06%20a%20las%2017.15.29.png?raw=true>
+  <img width="478" alt="Principal" src=https://github.com/nicovilla23/Project_visualization/blob/main/Images/Captura%20de%20Pantalla%202023-08-14%20a%20las%2016.31.53.png?raw=true>
 </div>
-3. Amount of electric cars per Business
+.
 
+# Cars Registered by make
+
+- In this graphic we see that the most popular makes are 'Tesla' , 'Chevrolet' and 'Nissan' 
 
 <div style="display: flex; justify-content: center;">
-  <img width="478" alt="Principal" src=https://github.com/nicovilla23/Project_Music_ETL/blob/main/Images/Captura%20de%20Pantalla%202023-08-06%20a%20las%2017.16.36.png?raw=true>
-  
+  <img width="478" alt="Principal" src=https://github.com/nicovilla23/Project_visualization/blob/main/Images/Captura%20de%20Pantalla%202023-08-14%20a%20las%2016.31.28.png?raw=true>
 </div>
-4. Amount of electric cars per Make
+.
 
+ # Amount of models per make
 
+ - Here we can observe that those makes with most options for an electric car are 'Audi', 'Bmw' and 'Mercedes'
+ 
 <div style="display: flex; justify-content: center;">
-  <img width="478" alt="Principal" src=https://github.com/nicovilla23/Project_Music_ETL/blob/main/Images/Captura%20de%20Pantalla%202023-08-06%20a%20las%2017.16.23.png?raw=true>
+  <img width="478" alt="Principal" src=https://github.com/nicovilla23/Project_visualization/blob/main/Images/Captura%20de%20Pantalla%202023-08-14%20a%20las%2016.32.07.png?raw=true>
 </div>
-5. Amount of electric cars per model
+.
+
+ # Prices per make
+
+ - In this graphic I display the average, minimum and maximum price per make.
+ - The most expensive car belongs to 'Rolls Royce'.
+ - The cheapest model belongs to 'BYD'
 <div style="display: flex; justify-content: center;">
-  <img width="478" alt="Principal" src=https://github.com/nicovilla23/Project_Music_ETL/blob/main/Images/Captura%20de%20Pantalla%202023-08-06%20a%20las%2017.16.11.png?raw=true>
+  <img width="478" alt="Principal" src=https://github.com/nicovilla23/Project_visualization/blob/main/Images/Captura%20de%20Pantalla%202023-08-14%20a%20las%2016.32.26.png?raw=true>
 </div>
-6. Amount of electric cars per year
+.
 
-### Cars Price:
+ # Model Preference
 
-1. Using beautiful soup I scrap data about electric cars and prices.
-2. Place the data into a table format
-3. Apply a function so that the models are divided into two columns: make and model.
-4. Erase duplicates.
-
-#### Analysis:
-
+ - Here we can form an opinion on the models based on their popularity and their Cafv Elegibility.
+ - The most popular model is 'LEAF' which is also Cafv Eligible.
 <div style="display: flex; justify-content: center;">
-  <img width="478" alt="Principal" src=https://github.com/nicovilla23/Project_Music_ETL/blob/main/Images/Captura%20de%20Pantalla%202023-08-06%20a%20las%2017.24.58.png?raw=true>
-
-  
+  <img width="478" alt="Principal" src=https://github.com/nicovilla23/Project_visualization/blob/main/Images/Captura%20de%20Pantalla%202023-08-14%20a%20las%2016.32.47.png?raw=true>
 </div>
-1. Average price per Make.
+.
+
+# Electric range
+- Throughout the years the electric range in Plug-in Hybrids hasn't barely changed whereas the electric range on the pure electric cars have increased to almost three ties what they had.
+- The more electric range the car has more probable it is to be Cafv Eligible.
 <div style="display: flex; justify-content: center;">
-  <img width="478" alt="Principal" src=https://github.com/nicovilla23/Project_Music_ETL/blob/main/Images/Captura%20de%20Pantalla%202023-08-06%20a%20las%2017.25.09.png?raw=true>
+  <img width="478" alt="Principal" src=https://github.com/nicovilla23/Project_visualization/blob/main/Images/Captura%20de%20Pantalla%202023-08-14%20a%20las%2016.33.02.png?raw=true>
 </div>
-2. Lowest price per make.
+.
+
+# Charging Stations
+
+- A map of all the charging stations in the state based on how many Evse units they have.
 <div style="display: flex; justify-content: center;">
-  <img width="478" alt="Principal" src=https://github.com/nicovilla23/Project_Music_ETL/blob/main/Images/Captura%20de%20Pantalla%202023-08-06%20a%20las%2017.24.47.png?raw=true>
-</div>
-3. Highest price per make.
-<div style="display: flex; justify-content: center;">
-  <img width="478" alt="Principal" src=https://github.com/nicovilla23/Project_Music_ETL/blob/main/Images/Captura%20de%20Pantalla%202023-08-06%20a%20las%2017.24.37.png?raw=true>
-</div>
-4. Amount of electric models per make.
-
-### Charging Stations:
-
-1. Extract the data from data.gov.
-2. Identifying NaN values.
-3. Erasing and cleaning NaN columns.
-4. Cleaning Access Days Time column by applying a function that returns either open 24 hours or not. 
-5. Extracting coordinates from New Georeferenced Column.
-6. Creating columns latitude and longitude.
-7. Rename columns and change types.
-8. Used folium to create a map with markers per station.
-
-#### Map:
-
-<div style="display: flex; justify-content: center;">
-  <img width="478" alt="Principal" src=https://github.com/nicovilla23/Project_Music_ETL/blob/main/Images/Captura%20de%20Pantalla%202023-08-06%20a%20las%2017.03.25.png?raw=true>
-</div>
-Map with the location of the charging stations.
-
-## DataBase:
-- Using alchemy from python.
-- Created Database 'EV_Cars'
-- Created tables.
-- Inserted the data previously extracted and transformed 
-
-<div style="display: flex; justify-content: center;">
-  <img width="478" alt="Principal" src=https://github.com/nicovilla23/Project_Music_ETL/blob/main/Images/Captura%20de%20Pantalla%202023-08-06%20a%20las%2018.38.35.png?raw=true>
+  <img width="478" alt="Principal" src=https://github.com/nicovilla23/Project_visualization/blob/main/Images/Captura%20de%20Pantalla%202023-08-14%20a%20las%2016.33.24.png?raw=true>
 </div>
 
